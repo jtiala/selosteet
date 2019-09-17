@@ -7,7 +7,7 @@ import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 import Link from "@material-ui/core/Link";
 
-import theme from "../../defaultTheme";
+import theme from "../../theme";
 import useStyles from "./App.styles";
 
 const Home: React.FC = () => {
