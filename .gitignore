@@ -1,0 +1,42 @@
+# Build directory
+dist
+build
+
+# Logs
+logs
+*.log
+npm-debug.log*
+webpack-stats.json
+
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Yarn integrity file
+.yarn-integrity
+
+# Tests
+coverage
+.nyc_output
+junit.xml
+
+# Dotenv configuration
+.env*
+!.env.example
+
+# macOS system files
+.DS_Store
+._.DS_Store
+
+# Editors
+.vscode/*
+!.vscode/launch.json
+.idea
+*.swp
