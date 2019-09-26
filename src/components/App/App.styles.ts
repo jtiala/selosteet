@@ -4,20 +4,12 @@ const useStyles = makeStyles(theme => ({
   root: {
     display: "flex",
     flexDirection: "column",
-    alignItems: "center"
+    maxWidth: 1024,
+    margin: "0 auto",
+    padding: theme.spacing(1)
   },
   paper: {
-    margin: theme.spacing(4),
-    padding: theme.spacing(4),
-    width: 900,
-    alignSelf: "center",
-    [theme.breakpoints.down("sm")]: {
-      width: "95%"
-    }
-  },
-  title: {
-    fontSize: "calc(10px + 4vmin)",
-    marginBottom: theme.spacing(4)
+    padding: theme.spacing(4)
   }
 }));
 
