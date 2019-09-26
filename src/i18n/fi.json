@@ -1,9 +1,32 @@
 {
   "fi": {
-    "translation": {
-      "Selosteet.fi": "Selosteet.fi",
-      "info@selosteet.fi": "info@selosteet.fi",
-      "Source available at GitHub": "Lähdekoodi saatavilla <0>GitHubissa</0>"
+    "common": {},
+    "header": {
+      "title": "Selosteet.fi",
+      "subtitle": "Helppokäyttöinen tietosuoja- ja rekisteriselostegeneraattori"
+    },
+    "footer": {
+      "title": "Selosteet.fi",
+      "email": "info@selosteet.fi",
+      "github": "Lähdekoodi saatavilla <0>GitHubissa</0>"
+    },
+    "editor": {
+      "panels": {
+        "generalInformation": {
+          "title": "Yleiset tiedot"
+        }
+      },
+      "fields": {
+        "siteName": {
+          "label": "Sivuston nimi"
+        },
+        "siteUrl": {
+          "label": "Sivuston osoite"
+        }
+      }
+    },
+    "preview": {
+      "title": "Tietosuojaseloste"
     }
   }
 }

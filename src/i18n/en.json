@@ -1,9 +1,24 @@
 {
   "en": {
-    "translation": {
-      "Selosteet.fi": "Selosteet.fi",
-      "info@selosteet.fi": "info@selosteet.fi",
-      "Source available at GitHub": "Source available at <0>GitHub</0>"
+    "common": {},
+    "header": {
+      "title": "Selosteet.fi",
+      "subtitle": "Handy privacy policy generator"
+    },
+    "footer": {
+      "title": "Selosteet.fi",
+      "email": "info@selosteet.fi",
+      "github": "Source available at <0>GitHub</0>"
+    },
+    "editor": {
+      "panels": {
+        "generalInformation": {
+          "title": "General Information"
+        }
+      }
+    },
+    "preview": {
+      "title": "Privacy Policy"
     }
   }
 }

@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
 
   const siteLink = (
     <Link component={RouterLink} to="/">
-      {t("Selosteet.fi")}
+      {t("footer:title")}
     </Link>
   );
 
@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      {t("info@selosteet.fi")}
+      {t("footer:email")}
     </Link>
   );
 
@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
         <li>
           <Trans
             i18n={i18n}
-            i18nKey="Source available at GitHub"
+            i18nKey="footer:github"
             components={[githubLink]}
           ></Trans>
         </li>

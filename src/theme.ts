@@ -11,6 +11,15 @@ const theme = createMuiTheme({
       main: yellow[500]
     },
     tonalOffset: 0.3
+  },
+  overrides: {
+    MuiCssBaseline: {
+      "@global": {
+        body: {
+          backgroundColor: "#eee"
+        }
+      }
+    }
   }
 });
 

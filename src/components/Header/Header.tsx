@@ -3,7 +3,6 @@ import { useTranslation } from "react-i18next";
 import { Link as RouterLink } from "react-router-dom";
 import Typography from "@material-ui/core/Typography";
 import Link from "@material-ui/core/Link";
-import Toolbar from "@material-ui/core/Toolbar";
 
 import useStyles from "./Header.styles";
 
@@ -14,12 +13,25 @@ const Header: React.FC = () => {
   const title = (
     <Typography variant="h1" className={classes.title}>
       <Link className={classes.link} component={RouterLink} to="/">
-        {t("Selosteet.fi")}
+        {t("header:title")}
       </Link>
     </Typography>
   );
 
-  return <Toolbar className={classes.root}>{title}</Toolbar>;
+  const subtitle = (
+    <Typography variant="subtitle1" className={classes.subtitle}>
+      {t("header:subtitle")}
+    </Typography>
+  );
+
+  return (
+    <header className={classes.root}>
+      <span>
+        {title}
+        {subtitle}
+      </span>
+    </header>
+  );
 };
 
 export default Header;

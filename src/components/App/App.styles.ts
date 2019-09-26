@@ -4,12 +4,9 @@ const useStyles = makeStyles(theme => ({
   root: {
     display: "flex",
     flexDirection: "column",
-    maxWidth: 1024,
+    maxWidth: theme.breakpoints.values.lg + theme.spacing(2),
     margin: "0 auto",
     padding: theme.spacing(1)
-  },
-  paper: {
-    padding: theme.spacing(4)
   }
 }));
 
