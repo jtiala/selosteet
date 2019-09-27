@@ -2,7 +2,6 @@
 
 [![Actions Status][actions-status-badge]][actions-status]
 [![Dependencies Status][dependencies-status-badge]][dependencies-status]
-[![Dev Dependencies Status][devdependencies-status-badge]][devdependencies-status]
 [![PRs Welcome][prs-badge]][contributing]
 [![License][license-badge]](license)
 
@@ -57,8 +56,6 @@ This project is open source software licensed under the MIT license. For more in
 [actions-status-badge]: https://github.com/jtiala/selosteet/workflows/CI/CD/badge.svg
 [dependencies-status]: https://david-dm.org/jtiala/selosteet
 [dependencies-status-badge]: https://img.shields.io/david/jtiala/selosteet.svg
-[devdependencies-status]: https://david-dm.org/jtiala/selosteet?type=dev
-[devdependencies-status-badge]: https://img.shields.io/david/dev/jtiala/selosteet.svg
 [contributing]: #contributing
 [prs-badge]: https://img.shields.io/badge/prs-welcome-blue.svg
 [license]: https://github.com/jtiala/selosteet/blob/master/LICENSE

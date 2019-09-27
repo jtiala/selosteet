@@ -21,7 +21,9 @@ const App: React.FC = () => {
           <div className={classes.root}>
             <Header />
             <Switch>
-              <Route component={EditorPage} />
+              <Route>
+                <EditorPage />
+              </Route>
             </Switch>
             <Footer />
           </div>
