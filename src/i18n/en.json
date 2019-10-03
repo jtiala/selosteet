@@ -1,6 +1,5 @@
 {
   "en": {
-    "common": {},
     "header": {
       "title": "Selosteet.fi",
       "subtitle": "Handy privacy policy generator"
@@ -8,17 +7,46 @@
     "footer": {
       "title": "Selosteet.fi",
       "email": "info@selosteet.fi",
-      "github": "Source available at <0>GitHub</0>"
+      "github": "Source code available at <0>GitHub</0>"
     },
-    "editor": {
-      "panels": {
-        "generalInformation": {
-          "title": "General Information"
+    "result": {
+      "tabsLabel": "Select a format",
+      "preview": "Preview",
+      "markdown": "Markdown",
+      "html": "HTML",
+      "txt": "TXT",
+      "title": "Privacy Policy",
+      "subtitle": "{{siteName}} ({{siteUrl}}). EU:n yleisen tietosuoja-asetuksen (GDPR) mukainen tietosuojaseloste. Laadittu {{created}}. Viimeisin muutos {{modified}}."
+    },
+    "general": {
+      "title": "General Information",
+      "fields": {
+        "siteName": {
+          "label": "Site Name",
+          "placeholder": "Company Ltd. Website"
+        },
+        "siteUrl": {
+          "label": "Site address",
+          "placeholder": "https://company.com"
         }
       }
     },
-    "preview": {
-      "title": "Privacy Policy"
+    "register": {
+      "title": "Register Information",
+      "fields": {
+        "controller": {
+          "label": "Controller",
+          "placeholder": "Company Ltd.\nAddress 123\n00000 City, Country\n+358 00 000 0000\nemail@company.com"
+        },
+        "contactPerson": {
+          "label": "Contact Person",
+          "placeholder": "Firstname Lastname\nPosition\n+358 00 000 0000\nfirstname.lastname@company.com"
+        },
+        "name": {
+          "label": "Name of the Register",
+          "placeholder": "Company Ltd. Website User Register"
+        }
+      }
     }
   }
 }

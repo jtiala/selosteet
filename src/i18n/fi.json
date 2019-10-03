@@ -1,6 +1,5 @@
 {
   "fi": {
-    "common": {},
     "header": {
       "title": "Selosteet.fi",
       "subtitle": "Helppokäyttöinen tietosuoja- ja rekisteriselostegeneraattori"
@@ -10,23 +9,73 @@
       "email": "info@selosteet.fi",
       "github": "Lähdekoodi saatavilla <0>GitHubissa</0>"
     },
-    "editor": {
-      "panels": {
-        "generalInformation": {
-          "title": "Yleiset tiedot"
-        }
-      },
+    "result": {
+      "tabsLabel": "Valitse formaatti",
+      "preview": "Esikatselu",
+      "markdown": "Markdown",
+      "html": "HTML",
+      "txt": "TXT",
+      "title": "Tietosuojaseloste",
+      "subtitle": "{{siteName}} ({{siteUrl}}), EU:n yleisen tietosuoja-asetuksen (GDPR) mukainen tietosuojaseloste. Laadittu {{created}}. Viimeisin muutos {{modified}}."
+    },
+    "general": {
+      "title": "Yleiset tiedot",
       "fields": {
         "siteName": {
-          "label": "Sivuston nimi"
+          "label": "Sivuston nimi",
+          "placeholder": "Yritys Oy:n verkkopalvelu"
         },
         "siteUrl": {
-          "label": "Sivuston osoite"
+          "label": "Sivuston osoite",
+          "placeholder": "https://yritys.fi"
         }
       }
     },
-    "preview": {
-      "title": "Tietosuojaseloste"
+    "register": {
+      "title": "Rekisterin tiedot",
+      "fields": {
+        "controller": {
+          "label": "Rekisterinpitäjä",
+          "placeholder": "Yritys Oy\nOsoite 123\n00000 Kaupunki, Maa\n+358 00 000 0000\nemail@yritys.fi"
+        },
+        "contactPerson": {
+          "label": "Rekisteriasioiden yhteyshenkilö",
+          "placeholder": "Etunimi Sukunimi\nAsema\n+358 00 000 0000\netunimi.sukunimi@yritys.fi"
+        },
+        "name": {
+          "label": "Rekisterin nimi",
+          "placeholder": "Yritys Oy:n verkkopalvelun käyttäjärekisteri"
+        },
+        "legalBasis": {
+          "label": "Henkilötietojen keräämisen ja käsittelyn oikeusperuste",
+          "placeholder": "Henkilötietojen keräämisen ja käsittelyn oikeusperusteena on\n- Käyttäjän suostumus\n- Käyttäjän kanssa tehtävä sopimus\n- Asiakkaan antama toimeksianto\n- Rekisterinpitäjän oikeutettu etu\n- Rekisterinpitäjän lakisääteiset velvoitteet\n\nKerättäviä henkilötietoja käytetään\n- Verkkopalvelun ylläpitoon ja kehittämiseen\n- Asiakassuhteen ylläpitoon ja kehittämiseen\n- Käyttäjän tunnistautumiseen ja käyttöoikeuksien hallintaan\n- Markkinointitarkoituksiin\n\nTietoja ei käytetä automatisoituun päätöksentekoon tai profilointiin."
+        },
+        "purpose": {
+          "label": "Henkilötietojen keräämisen ja käsittelyn käyttötarkoitus",
+          "placeholder": "Kerättäviä henkilötietoja käytetään\n- Verkkopalvelun ylläpitoon ja kehittämiseen\n- Asiakassuhteen ylläpitoon ja kehittämiseen\n- Käyttäjän tunnistautumiseen ja käyttöoikeuksien hallintaan\n- Markkinointitarkoituksiin\n\nTietoja ei käytetä automatisoituun päätöksentekoon tai profilointiin."
+        },
+
+        "dataContent": {
+          "label": "Rekisterin tietosisältö",
+          "placeholder": "Rekisteriin tallennettavia tietoja ovat\n- Nimi\n- Yritys/organisaatio ja asema\n- Sähköpostiosoite\n- Puhelinnumero\n- WWW-sivuston osoite\n- IP-osoite\n- Käyttäjänimi\n- Salasanan tiiviste\n- Sosiaalisen median tunnukset\n- Muut asiakassuhteeseen liittyvät tiedot"
+        },
+        "dataSources": {
+          "label": "Rekisterin tietolähteet",
+          "placeholder": "Rekisteriin kerätään tietoja\n- Käyttäjältä itseltään\n- Google Analytics –analytiikkatyökalun avulla"
+        },
+        "dataDisclosureTransferAndStorage": {
+          "label": "Tietojen luovutus, siirto ja säilytys",
+          "placeholder": "Henkilötietoja ei luovuteta kolmansille osapuolille, paitsi Suomen viranomaistoimien niin edellyttäessä.\nOsa palvelun käyttämistä ulkopuolisista palvelun- tai ohjelmistontarjoajista saattavat säilyttää tietoja EU:n tai Euroopan talousalueen ulkopuolella.\nHenkilötietoja säilytetään vain niin kauan kuin on tarpeen siinä tarkoituksessa, johon tiedot on kerätty."
+        },
+        "securityPrinciples": {
+          "label": "Rekisterin suojauksen periaatteet",
+          "placeholder": "Tiedot siirretään SSL-suojatun yhteyden ylitse.\nHenkilötiedot säilytetään luottamuksellisina.\nRekisterinpitäjän ja sen mahdollisten tietotekniikkakumppanien tietoverkko ja laitteisto, missä rekisteri sijaitsee, on suojattu palomuurilla ja muilla tarvittavilla teknisillä toimenpiteillä.\nTietojen käyttöoikeus on vain niillä rekisterinpitäjän palveluksessa olevilla henkilöillä, jotka tarvitsevat tietoja tehtävissään."
+        },
+        "dataSubjectsRights": {
+          "label": "Rekisteröidyn oikeudet",
+          "placeholder": "- Rekisteröidyllä on oikeus tarkastaa, mitä häntä koskevia tietoja henkilötietorekisteriin on talletettu.\n- Rekisteröidyllä on oikeus vaatia virheellisten tai vanhentuneiden tietojen oikaisua tai poistamista kirjallisella, allekirjoitetulla pyynnöllä rekisterinpitäjälle.\n- Rekisteröidyllä on oikeus rajoittaa tai vastustaa tietojensa käsittelyä EU:n tietosuoja-asetuksen artiklojen 18 ja 21 mukaisesti.\n- Rekisteröidyllä on oikeus peruuttaa aiemmin antamansa suostumus tietojen käsittelylle tai tehdä henkilötietojensa käsittelyyn liittyvistä seikoista valitus valvontaviranomaiselle.\n- Rekisteröidyllä on oikeus kieltää tietojensa käyttö suoramarkkinointitarkoituksiin."
+        }
+      }
     }
   }
 }

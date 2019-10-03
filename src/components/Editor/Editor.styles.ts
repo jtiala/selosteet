@@ -3,7 +3,14 @@ import { makeStyles } from "@material-ui/core/styles";
 const useStyles = makeStyles(theme => ({
   root: {
     display: "flex",
-    flexDirection: "column"
+    flexDirection: "column",
+    margin: theme.spacing(0, 4, 0, 0),
+    [theme.breakpoints.down("lg")]: {
+      margin: theme.spacing(0, 2, 0, 0)
+    },
+    [theme.breakpoints.down("sm")]: {
+      margin: theme.spacing(0, 0, 2, 0)
+    }
   },
   summaryHeading: {
     fontSize: theme.typography.pxToRem(15),
@@ -32,6 +39,9 @@ const useStyles = makeStyles(theme => ({
       zIndex: 1
     },
     "& input": {
+      zIndex: 2
+    },
+    "& textarea": {
       zIndex: 2
     },
     "& label": {
