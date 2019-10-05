@@ -1,0 +1,52 @@
+{
+  "nl": {
+    "header": {
+      "title": "Selosteet.fi",
+      "subtitle": "Handige privacy policy generator"
+    },
+    "footer": {
+      "title": "Selosteet.fi",
+      "email": "info@selosteet.fi",
+      "github": "Source code is beschikbaar bij <0>GitHub</0>"
+    },
+    "result": {
+      "tabsLabel": "Selecteer een formaat",
+      "preview": "Voorbeeld",
+      "markdown": "Markdown",
+      "html": "HTML",
+      "txt": "TXT",
+      "title": "Privacy Policy",
+      "subtitle": "{{siteName}} ({{siteUrl}}). In overeenstemming met het EU (GDPR) privacy statement. Aangemaakt {{created}}. Laatst gewijzigd {{modified}}."
+    },
+    "general": {
+      "title": "Algemene informatie",
+      "fields": {
+        "siteName": {
+          "label": "Site Naam",
+          "placeholder": "Bedrijfs B.V. Website"
+        },
+        "siteUrl": {
+          "label": "Site adres",
+          "placeholder": "https://bedrijf.nl"
+        }
+      }
+    },
+    "register": {
+      "title": "Register informatie",
+      "fields": {
+        "controller": {
+          "label": "Controller",
+          "placeholder": "Company Ltd.\nAddress 123\n00000 City, Country\n+358 00 000 0000\nemail@bedrijf.nl"
+        },
+        "contactPerson": {
+          "label": "Contact persoon",
+          "placeholder": "Voornaam Achternaam\nPositie\n+358 00 000 0000\nvoornaam.achternaam@bedrijf.nl"
+        },
+        "name": {
+          "label": "Naam van het register",
+          "placeholder": "Bedrijf B.V. Website gebruikers Register"
+        }
+      }
+    }
+  }
+}
