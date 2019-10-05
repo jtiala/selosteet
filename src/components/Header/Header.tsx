@@ -5,6 +5,7 @@ import Typography from "@material-ui/core/Typography";
 import Link from "@material-ui/core/Link";
 
 import useStyles from "./Header.styles";
+import i18n from "../../i18n/i18n";
 
 const Header: React.FC = () => {
   const classes = useStyles();
@@ -26,10 +27,28 @@ const Header: React.FC = () => {
 
   return (
     <header className={classes.root}>
-      <span>
-        {title}
-        {subtitle}
-      </span>
+      <section className={classes.leftsection}>
+        <span>
+          {title}
+          {subtitle}
+        </span>
+      </section>
+      <section className={classes.rightsection}>
+        <p>{t("header:language")}</p>
+        <select
+          onChange={e => {
+            i18n.changeLanguage(e.target.value);
+          }}
+        >
+          {(t("header:languages", { returnObjects: true }) as [
+            { title: string; value: string }
+          ]).map(c => (
+            <option value={c.value} key={c.value}>
+              {c.title}
+            </option>
+          ))}
+        </select>
+      </section>
     </header>
   );
 };

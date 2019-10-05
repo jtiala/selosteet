@@ -2,7 +2,13 @@
   "nl": {
     "header": {
       "title": "Selosteet.fi",
-      "subtitle": "Handige privacy policy generator"
+      "subtitle": "Handige privacy policy generator",
+      "language": "Taal",
+      "languages": [
+        { "title": "Engels", "value": "en" },
+        { "title": "Fins", "value": "fi" },
+        { "title": "Nederlands", "value": "nl" }
+      ]
     },
     "footer": {
       "title": "Selosteet.fi",
