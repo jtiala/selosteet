@@ -43,7 +43,11 @@ const Header: React.FC = () => {
           {(t("header:languages", { returnObjects: true }) as [
             { title: string; value: string }
           ]).map(c => (
-            <option value={c.value} key={c.value}>
+            <option
+              value={c.value}
+              key={c.value}
+              selected={c.value === i18n.language}
+            >
               {c.title}
             </option>
           ))}

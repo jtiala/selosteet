@@ -5,7 +5,7 @@ import { fi } from "./fi.json";
 import { nl } from "./nl.json";
 
 i18n.use(initReactI18next).init({
-  lng: "nl",
+  lng: "en",
   fallbackLng: "en",
   interpolation: {
     escapeValue: false
