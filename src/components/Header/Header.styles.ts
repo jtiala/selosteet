@@ -25,6 +25,12 @@ const useStyles = makeStyles(theme => ({
       color: theme.palette.primary.main,
       textDecoration: "none"
     }
+  },
+  leftsection: {
+    float: "left"
+  },
+  rightsection: {
+    float: "right"
   }
 }));
 

@@ -2,7 +2,13 @@
   "fi": {
     "header": {
       "title": "Selosteet.fi",
-      "subtitle": "Helppokäyttöinen tietosuoja- ja rekisteriselostegeneraattori"
+      "subtitle": "Helppokäyttöinen tietosuoja- ja rekisteriselostegeneraattori",
+      "language": "Kieli",
+      "languages": [
+        { "title": "Englanti", "value": "en" },
+        { "title": "Suomi", "value": "fi" },
+        { "title": "Hollannin", "value": "nl" }
+      ]
     },
     "footer": {
       "title": "Selosteet.fi",

@@ -22,7 +22,7 @@ export enum FieldTypes {
 
 const Editor: React.FC = () => {
   const classes = useStyles();
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const dispatch = useAppDispatch();
   const { sections } = useAppState();
