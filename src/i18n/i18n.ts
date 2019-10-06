@@ -6,7 +6,7 @@ import { nl } from "./nl.json";
 
 i18n.use(initReactI18next).init({
   lng: "en",
-  fallbackLng: "en",
+  fallbackLng: "fi",
   interpolation: {
     escapeValue: false
   },

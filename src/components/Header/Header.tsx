@@ -39,15 +39,12 @@ const Header: React.FC = () => {
           onChange={e => {
             i18n.changeLanguage(e.target.value);
           }}
+          defaultValue={i18n.language}
         >
           {(t("header:languages", { returnObjects: true }) as [
             { title: string; value: string }
           ]).map(c => (
-            <option
-              value={c.value}
-              key={c.value}
-              selected={c.value === i18n.language}
-            >
+            <option value={c.value} key={c.value}>
               {c.title}
             </option>
           ))}
